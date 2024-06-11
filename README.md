@@ -1,4 +1,4 @@
-# mern-typemaster
+# KeySensei
 ## Introduction
 A full-stack interactive typing game built with the MERN stack - MongoDB, Express.js, React, and Node.js. 
 It features real-time interactive gameplay and integration capability to MongoDB for storing and fetching scores.
@@ -25,7 +25,7 @@ $ npm install
 $ npm run dev
 ```
 
-**Important**: To upload and fetch data from your own MongoDB, modify the '**PORT**' and '**mongoDBURL**' variables in the [config.js](https://github.com/Trieuh2/mern-typing-game/blob/main/backend/config.js) file.
+**Important**: To upload and fetch data from your own MongoDB, modify the '**PORT**' and '**mongoDBURL**' variables in the [config.js](https://github.com/ashutoshpandey27/KeySensei/edit/master/backend/config.js) file.
 
 ## Features
 - **Random Word Generation:** Each game session presents a new set of randomly selected words to type.
