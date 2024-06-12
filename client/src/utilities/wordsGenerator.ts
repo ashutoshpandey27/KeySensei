@@ -7,7 +7,7 @@ export async function wordsGenerator(
   }
 
   try {
-    const response = await fetch('../../public/data/wordlist.json');
+    const response = await fetch('/data/wordlist.json');
 
     if(!response.ok){
         throw new Error("Network response was not om while attempting to fetch wordList.");
